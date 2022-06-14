@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #eca045;
+    --white-color: #fff;
+    --black-color: #111111;
+    --second-color: #101a28;
+    --menu-color: #0b121c;
+    --border-color: #284148;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-image: url('../img/button.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 5.6rem;
+    font-size: 1.6rem;
+    line-height: 5.4rem;
+    padding: 0 2.5rem;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(80%);
+}
+
+.card {
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(transparent, var(--second-color));
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    border-color: var(--border-color) transparent transparent var(--border-color);
+    border-style: solid;
+    border-width: 30px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 2rem 2rem 2.5rem 2rem;
+    border: 1px solid var(--border-color);
+}
+
+.card-info::before {
+    content: '';
+    position: absolute;
+    border-color: var(--border-color) transparent transparent var(--border-color);
+    border-style: solid;
+    border-width: 20px;
+    transform: rotate(180deg);
+    bottom: 0;
+    right: 0;
+}
+
+.card-info:hover {
+    border-color: var(--primary-color);
+}
+
+.card-info:hover::before {
+    border-color: var(--primary-color) transparent transparent var(--primary-color);
+}
+
+.card-info-title-link {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: block;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.card-info-decs {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.card-info-price-logo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card-info-price {
+    color: var(--primary-color);
+    line-height: 3rem;
+}
+
+.card-info-logo {
+    color: #5a5a5a;
+    margin-right: 0.5rem;
+}

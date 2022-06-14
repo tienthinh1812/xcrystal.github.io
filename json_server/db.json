@@ -1,0 +1,64 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "ASSASSINS CREED 4",
+            "description": "Nihil laborum qui harum maxime nibh maiores cubilia, voluptatibus turpis, posuere, tempor. Condimentum dolorem, ultricies convallis at natoque, assumenda cum! Excepteur posuere! Aperiam feugiat! Luctus non doloribus sunt, justo occaecat dicta fugit porttitor. Vehicula asperiores pede parturient minim! Consequatur ipsa? Laudantium hymenaeos, illo senectus dignissimos consequat perferendis quod, eaque aenean accusantium parturient risus arcu autem, rutrum, quisque! Commodo eveniet bibendum, amet penatibus, dignissim, ridiculus tempor enim, laudantium aliquip, duis. Nostrud!",
+            "price": "24.00",
+            "imgProduct": "http://games.demo.weebpal.com/sites/default/files/images/products/assassin_0_0_0.jpg",
+            "imgSlide": "./assets/img/slide/ac-4-slide.jpg",
+            "imgBanner": "http://games.demo.weebpal.com/sites/default/files/product/maxresdefault_1.jpg",
+            "genre": [
+                "Action", "Casual"
+            ],
+            "format": [
+                "PC", "Nintendo 3DS & 2DS"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "FALLOUT 4",
+            "description": "Facilisi felis culpa potenti enim officiis tempor primis natus? Nisi tempor incididunt rutrum ducimus pretium penatibus! Tincidunt optio. Nam magni inventore iaculis cum cupidatat nisi cupidatat eos, ipsum feugiat reprehenderit? Tempor adipisicing magni irure laboriosam dignissimos, architecto tellus leo excepteur, torquent dis purus parturient incididunt. Occaecati adipisci convallis. Eu dictum mollis nostrum provident voluptatum! Maxime sed. Dapibus. Primis, veritatis ac et laoreet, tortor sollicitudin quo cras, nostra esse, feugiat dolores",
+            "price": "19.99",
+            "imgProduct": "http://games.demo.weebpal.com/sites/default/files/images/products/fallout4_0_0.jpg",
+            "imgSlide": "./assets/img/slide/fallout4-slide.jpg",
+            "imgBanner": "http://games.demo.weebpal.com/sites/default/files/product/Fallout4_graph01_0.jpg",
+            "genre": [
+                "Free to Play", "Casual"
+            ],
+            "format": [
+                "Nintendo Wii U/Wii", "Playstation 3"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "CALL OF DUTY 4",
+            "description": "Sint hendrerit qui consequat scelerisque quisquam? Maecenas litora voluptatibus mus? Nesciunt mi, elit! Incididunt massa habitasse voluptate, elementum animi, exercitationem delectus sociosqu, esse lectus eget delectus? Iaculis blandit. Occaecat nisi, nam nullam! Optio minima nostra quidem veritatis error sit nobis rem vivamus, pretium pulvinar, ipsum dolorum incidunt erat! At, magna maiores? Est et nobis lectus aperiam, sapiente potenti? Aspernatur assumenda eligendi vulputate ac id pariatur molestiae! Rerum penatibus egestas cras dolorum interdum semper ligula ratione, architecto.",
+            "price": "23.00",
+            "imgProduct": "http://games.demo.weebpal.com/sites/default/files/images/products/Call_of_Duty_4_Modern_Warfare_1_0.jpg",
+            "imgSlide": "http://games.demo.weebpal.com/sites/default/files/styles/slide/public/2017-09/maxresdefault.jpg?itok=AzPqbbyx",
+            "imgBanner": "http://games.demo.weebpal.com/sites/default/files/product/maxresdefault_0.jpg",
+            "genre": [
+                "Massively Multiplayer", "RPG"
+            ],
+            "format": [
+                "Nintendo 3DS & 2DS", "Playstation 4"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "X COM 2",
+            "description": "Quia morbi class possimus cupiditate porta, ullamcorper porta consectetur semper quibusdam? Odio semper libero elementum quisquam dignissimos congue volutpat dictumst facere, sapien natus leo. Quod montes! Class. Eleifend? Ea dictum litora placerat! Voluptate sapien a massa ex, veritatis parturient. Nisi, rerum curae nonummy rerum ducimus, nibh veniam aperiam eget blandit habitasse sagittis primis penatibus corrupti! Neque consequatur enim. Ullamcorper commodo? Ullamco elit montes. Vehicula posuere id aperiam integer id est perspiciatis facilisis. Auctor eaque sunt quae ultricies rerum",
+            "price": "59.99",
+            "imgProduct": "http://games.demo.weebpal.com/sites/default/files/images/products/xcom2_0_0.jpg",
+            "imgSlide": "http://games.demo.weebpal.com/sites/default/files/styles/slide/public/2017-09/x-com-2_0.jpg?itok=YTPr0bSA",
+            "imgBanner": "http://games.demo.weebpal.com/sites/default/files/product/2889649-xcom_2_e3_screenshot_berserker_.jpg",
+            "genre": [
+                "Free to Play", "Action"
+            ],
+            "format": [
+                "PC", "Playstation 3"
+            ]
+        }
+    ]
+}
