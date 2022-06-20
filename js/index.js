@@ -181,7 +181,7 @@ const showSlide = (games, currentSlide) => {
                     </div>
                     <div class="slide-show__info">
                         <div class="slide-show__info-title">
-                            <a href="" class="slide-show__info-title-link">
+                            <a href="./detail.html" class="slide-show__info-title-link">
                                 ${game.name}
                             </a>
                         </div>
@@ -210,7 +210,7 @@ const showProductBestSeller = (games) => {
                 
                 <div class="card-info">
                     <div class="card-info-title">
-                        <a href="http://127.0.0.1:5500/detail.html" class="card-info-title-link">${game.name}</a>
+                        <a href="./detail.html" class="card-info-title-link">${game.name}</a>
                     </div>
                     
                     <p class="card-info-decs">${game.description}</p>
@@ -240,7 +240,7 @@ const showProductContent = (games) => {
                     
                     <div class="card-info">
                         <div class="card-info-title">
-                            <a href="http://127.0.0.1:5500/detail.html" class="card-info-title-link">${game.name}</a>
+                            <a href="./detail.html" class="card-info-title-link">${game.name}</a>
                         </div>
                         
                         <p class="card-info-decs">${game.description}</p>
