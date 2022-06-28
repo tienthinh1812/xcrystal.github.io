@@ -75,6 +75,9 @@ var searchByGenre = $$('.content-product__menu-genre-item')
 var heightHeader = $('.header-top')
 var topSlideShow = $('.slide-show')
 var contentSlide = $('.slide-show__content')
+var iconMenu = $('.menu-mobile__icon i')
+var menu = $('.navbar')
+var menuCover = $('.menu-mobile__cover')
 
 var currentSlide = 1
 
@@ -161,15 +164,26 @@ const handleData = (game) => {
         showSlide(games, currentSlide)
     }
 
-    document.onscroll = (() => {
-        if(Math.floor(window.scrollY) >= 100) {
-            heightHeader.style.height = '60px'
-            topSlideShow.style.marginTop = '60px'
-        }else {
-            heightHeader.style.height = '80px'
-            topSlideShow.style.marginTop = '80px'
-        }
-    })
+    iconMenu.onclick = function() {
+        menu.style.right = '0'
+        menuCover.style.display = 'block'
+    }
+
+    menuCover.onclick = function() {
+        menu.style.right = '-100%'
+        menuCover.style.display = 'none'
+    }
+
+
+    // document.onscroll = (() => {
+    //     if(Math.floor(window.scrollY) >= 100) {
+    //         heightHeader.style.height = '60px'
+    //         topSlideShow.style.marginTop = '60px'
+    //     }else {
+    //         heightHeader.style.height = '80px'
+    //         topSlideShow.style.marginTop = '80px'
+    //     }
+    // })
 }
 
 
@@ -190,7 +204,7 @@ const showSlide = (games, currentSlide) => {
                         </div>
                         <div class="slide-show__info-note">
                             <p>PLEASE NOTE</p>
-                            Prices in GAME Stores may differ
+                            <span>Prices in GAME Stores may differ</span>
                         </div>
                         <div class="slide-show__info-price">$${game.price}</div>
                         <div class="btn">Add to cart</div>
@@ -204,7 +218,7 @@ const showSlide = (games, currentSlide) => {
 const showProductBestSeller = (games) => {
     var html = games.map((game) => {
         return `
-        <div class="col c-6 m-6 l-3">
+        <div class="col c-12 m-6 l-3">
             <div class="card">
                 <img class="card-img" src="${game.imgProduct}" alt="">
                 
@@ -233,7 +247,7 @@ const showProductBestSeller = (games) => {
 const showProductContent = (games) => {
     var html = games.map((game) => {
         return `
-        <div class="col l-4 c-6 m-6">
+        <div class="col l-4 c-12 m-6">
             <div class="content-product__main">
                 <div class="card">
                     <img class="card-img" src="${game.imgProduct}" alt="">
