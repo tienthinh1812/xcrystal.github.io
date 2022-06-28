@@ -130,7 +130,7 @@
         width: 60vw;
         top: 0;
         bottom: 0;
-        right: 100%;
+        right: -100%;
         z-index: 10000;
         overflow: scroll;
         transition: right 0.3s linear;
