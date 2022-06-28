@@ -192,4 +192,12 @@
     .banner-second__info-decs {
         display: none;
     }
+
+    .mail-letter {
+        padding: 10px;
+    }
+
+    .mail-letter__news {
+        padding: 5px;
+    }
 }

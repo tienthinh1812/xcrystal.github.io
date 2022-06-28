@@ -918,12 +918,14 @@
 }
 
 .mail-letter__news-form input{
+    width: 50%;
     background-color: #152430;
     border: none;
     font-size: 2rem;
     color: var(--border-color);
-    padding-left: 1rem;
-    flex: 1;
+    padding: 0 1rem;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .mail-letter__news-form input:focus {
@@ -937,6 +939,7 @@
     color: var(--white-color);
     border: none;
     border-radius: 2px;
+    flex-grow: 1;
     transition: all 0.2s linear;
 }
 
